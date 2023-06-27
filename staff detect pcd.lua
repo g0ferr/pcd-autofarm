@@ -1,3 +1,5 @@
+-- feel free to add more people you dont want to be on with. those members are members of the PCD group and i dont know if there are more admins that arent in group
+
 while true do
     local user = {
         332889192,
