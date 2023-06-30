@@ -56,13 +56,12 @@ while true do
         wait(1)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9047.5458984375, 124.72039794921875, -774.8919677734375)
 		wait(1)
-		tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.5, Enum.EasingStyle.Linear)
-		tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(7553.3603515625, 117.91698455810547, 11507.9951171875)}):Play()
-		wait(1.5)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7553.3603515625, 117.91698455810547, 11507.9951171875)
+		wait(0.1)
 		fireproximityprompt(game:GetService("Workspace").boxdar.Part.Attachment.ProximityPrompt, 2, true)
-		wait(0.5)
+		wait(0.3)
 		fireproximityprompt(game:GetService("Workspace").boxdar.Part.Attachment.ProximityPrompt, 2, true)
-		wait(0.5)
+		wait(0.3)
 		fireproximityprompt(game:GetService("Workspace").boxdar.Part.Attachment.ProximityPrompt, 2, true)
 		wait(0.04)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9047.5458984375, 124.72039794921875, -774.8919677734375)
@@ -96,7 +95,7 @@ while true do
             end
 
             countdownLabel.Text = "Started delivery!"
-            wait(0.8)
+            wait(1)
             screenGui:Destroy()
         end
 
@@ -641,7 +640,7 @@ while true do
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(204.59140014648438, 126.92701721191406, -6207.93896484375)
 		wait(0.04)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9047.5458984375, 124.72039794921875, -774.8919677734375)
-		wait(0.1)
+		wait(0.25)
 		game.Players.LocalPlayer.Character.Humanoid.Health = 0
 		wait(5)
 	end
