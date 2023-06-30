@@ -52,7 +52,7 @@ while true do
         wait(3.5)
         keypress(0x46)
         wait(2)
-        game.Workspace.niejestempedal.Humanoid.Sit=false
+        game.Players.LocalPlayer.Character.Humanoid.Sit = false
         wait(1)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9047.5458984375, 124.72039794921875, -774.8919677734375)
 		wait(1)
@@ -96,7 +96,7 @@ while true do
             end
 
             countdownLabel.Text = "Started delivery!"
-            wait(1.5)
+            wait(0.8)
             screenGui:Destroy()
         end
 
